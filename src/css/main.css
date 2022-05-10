@@ -1,0 +1,336 @@
+@charset "utf-8";
+
+#body{
+    width:375px;
+    height:812px;
+    margin:50px auto 0 auto;
+    overflow:hidden;
+}
+
+.swiper-container{
+    width:750px;
+    height:812px;
+}
+
+.app-wrapper2{
+    float:left;
+}
+
+.app-wrapper{
+    float:left;
+    width:375px;
+    height:812px;
+    margin:0 auto;
+    background-color:#EEECE5;
+    position:relative;
+    overflow: hidden;
+}
+
+.status-bar{
+    width:100%;
+    height:44px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-bar .time{
+    font-size:15px;
+    font-weight:600;
+    margin-left:21px;
+}
+
+.status-bar .status{
+    margin-right:15px;
+}
+
+.header{
+    width:100%;
+    height:43px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .profile{
+    margin-left:27px;
+}
+
+.header h2{
+    font-size:18px;
+    font-weight:500;
+}
+
+.header .header-btn{
+    display:flex;
+    margin-right:21px;
+}
+
+.header .header-btn .qr-btn{
+    margin-right:18px;
+}
+
+.main{
+    margin-top:33px;
+}
+
+.main .account-box{
+    width: 279px;
+    height: 155px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(226, 191, 66, 0.19);
+    border-radius: 12px;
+    margin:0 auto;
+    text-align: center;
+    padding-top:14px;
+}
+
+.main .account-box .account{
+    height:21px;
+    line-height: 21px;
+    position:relative;
+}
+
+.main .account-box .account>span{
+    color:#858585;
+    font-size:14px;
+    font-weight:500;
+}
+
+.main .account-box .account>button{
+    font-size:14px;
+    font-weight:500;
+    position:absolute;
+    right:17px;
+    top:-1px;
+}
+
+.main .account-box .balance{
+    height:36px;
+    line-height: 36px;
+    margin-top:16px;
+}
+
+.main .account-box .balance>span:first-child{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.main .account-box .balance>span:last-child{
+    font-size:14px;
+    font-weight:500;
+}
+
+.main .account-box .chart{
+    margin-top:16px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .account-box .chart .chart-bar{
+    background:url("../images/chart-bar.png");
+    background-position: center;
+    width:202px;
+    height:17px;
+    margin-right:7px;
+}
+
+.main .account-box .info{
+    height:21px;
+    line-height: 21px;
+    font-size:14px;
+    font-weight:500;
+    color:#858585;
+    margin-top:8px;
+}
+
+.main .notice{
+    height:21px;
+    line-height: 21px;
+    margin-top:24px;
+    font-size:14px;
+    font-weight:500;
+    display: flex;
+    justify-content: center;
+}
+
+.main .notice>p:last-child{
+    margin-left:6px;
+}
+
+.main .notice>p:last-child a{
+    color:#000;
+}
+
+.main .breakdown-container{
+    width: 375px;
+    height: 100%;
+    background-color: #f5f5f5;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0px -5px 14px rgb(189 144 28 / 8%);
+    /* overflow: hidden; */
+    position: absolute;
+    padding-top: 23px;
+    margin-top: 21px;
+    
+}
+
+.main .breakdown-container .bc-button{
+    position:absolute;
+    width:48px;
+    height:20px;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main .breakdown-container .bc-button>div{
+    position:absolute;
+    width:48px;
+    height:2px;
+    background-color:#c4c4c4;
+    border-radius:4px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main .breakdown-container .moneybox-wrap{
+    width:308px;
+    height:47px;
+    overflow: scroll;
+    margin-left:30px;
+}
+
+.main .breakdown-container .moneybox-wrap::-webkit-scrollbar {
+	display:none /* Chrome , Safari , Opera */
+}
+
+.main .breakdown-container .moneybox{
+    width:512px;
+    height:47px;
+}
+
+.main .breakdown-container .moneybox>li{
+    width:162px;
+    height:47px;
+    border-radius: 6px;
+    float:left;
+    overflow:hidden;
+}
+
+.main .breakdown-container .moneybox>li:nth-of-type(1)>div{
+    width:97px;
+    height:47px;
+    background-color:#FF5F00;
+    display:flex;
+    align-items: center;
+}
+
+.main .breakdown-container .moneybox>li:nth-of-type(2)>div{
+    width:121px;
+    height:47px;
+    background-color:#FEB700;
+    display:flex;
+    align-items: center;
+}
+
+.main .breakdown-container .moneybox>li:nth-of-type(3)>div{
+    width:121px;
+    height:47px;
+    display:flex;
+    align-items: center;
+    margin-left:6px;
+}
+
+.main .breakdown-container .moneybox>li:nth-of-type(3)>div>div>span{
+    vertical-align:7px;
+    font-size:12px;
+    color:#FF5F00;
+}
+
+.main .breakdown-container .moneybox>li:not(:last-child)>div>div{
+    height:35px;
+    font-size:12px;
+    line-height: 16px;
+    margin-left:13px;
+}
+
+.main .breakdown-container .moneybox>li:not(:first-child){
+    margin-left:13px;
+}
+
+.main .breakdown-container .moneybox>li:not(:last-child){
+    color:#fff;
+    background: #DADADA;
+}
+
+.breakdown-list{
+    width:302px;
+    height:100%;
+    margin:0 auto;
+}
+
+.breakdown-list .list-header{
+    height:21px;
+    display:flex;
+    justify-content: space-between;
+    line-height:21px;
+    font-size:14px;
+}
+
+.breakdown-list .list-header h4{
+    font-weight:700;
+}
+
+.breakdown-list .list-header span{
+    font-weight:500;
+    color:#b4b4b4;
+}
+
+.breakdown-list>div{
+    height:300px;
+    overflow: scroll;
+}
+
+.breakdown-list>div::-webkit-scrollbar {
+	display:none /* Chrome , Safari , Opera */
+}
+
+.breakdown-list>div>div:first-child{
+    margin-top:17px;
+}
+
+.breakdown-list>div>div:not(:first-child){
+    margin-top:38px;
+}
+
+.breakdown-list .list li{
+    font-size:18px;
+    font-weight:400;
+    height:34px;
+    margin-top:15px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid #dbdbdb;
+}
+
+.nav{
+    position:absolute;
+    width:375px;
+    height:76px;
+    bottom:0;
+    background: linear-gradient(163.63deg, #00BDB2 11.35%, #C4E7B8 139.96%);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav>button:first-child{
+    margin-left:46px;
+}
+
+.nav>button:last-child{
+    margin-right:32px;
+}
+

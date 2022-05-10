@@ -1,0 +1,72 @@
+[
+    {
+      "date": "2022.5.1",
+      "inOut": "in",
+      "type": "mart",
+      "item": "용돈",
+      "price": 20000
+    },
+    {
+      "date": "2022.5.1",
+      "inOut": "out",
+      "type": "health",
+      "item": "샐러드",
+      "price": 10000
+    },
+    {
+      "date": "2022.5.1",
+      "inOut": "out",
+      "type": "eatout",
+      "item": "맛있어돈까스",
+      "price": 8000
+    },
+    {
+      "date": "2022.5.1",
+      "inOut": "out",
+      "type": "mart",
+      "item": "이마트",
+      "price": 36000
+    },
+    {
+      "date": "2022.5.1",
+      "inOut": "out",
+      "type": "eatout",
+      "item": "놀부보쌈",
+      "price": 1200
+    },
+    {
+      "date": "2022.5.2",
+      "inOut": "in",
+      "type": "mart",
+      "item": "김밥천국",
+      "price": 10000
+    },
+    {
+      "date": "2022.5.2",
+      "inOut": "out",
+      "type": "mart",
+      "item": "쌈밤",
+      "price": 20000
+    },
+    {
+      "date": "2022.5.2",
+      "inOut": "out",
+      "type": "mart",
+      "item": "콜라",
+      "price": null
+    },
+    {
+      "date": "2022.5.2",
+      "inOut": "out",
+      "type": "eatout",
+      "item": "택시",
+      "price": 30000
+    },
+    {
+      "date": "2022.5.3",
+      "inOut": "out",
+      "type": "eatout",
+      "item": "짜장면",
+      "price": 29900
+    }
+  ] 
